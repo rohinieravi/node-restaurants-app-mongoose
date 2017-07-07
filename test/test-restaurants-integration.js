@@ -22,6 +22,7 @@ function seedRestaurantData() {
   console.info('seeding restaurant data');
   const seedData = [];
 
+  //seeding data
   for (let i=1; i<=10; i++) {
     seedData.push(generateRestaurantData());
   }
